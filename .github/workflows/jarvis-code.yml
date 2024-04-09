@@ -24,9 +24,9 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v4
-        with:
-          persist-credentials: False
-          set-safe-directory: ".github/workflows/"
+        # with:
+          # persist-credentials: False
+          # set-safe-directory: ".github/workflows/"
       - name: Check GitHub Status
         # Source of GitHub Action in line 30: 
         # https://github.com/dduzgun-security/secure-code-game-action
